@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+
+  <style>
+    .text {
+      color: white;
+    }
+    .endpoint_info {
+      color:red;
+    }
+  </style>
+</head>
+<body style="background:black">
+  <h1 class="text">Welcome to to gh, a GitHub user and organization querier on replit.</h1>
+  <h2 class="text">Usage</h2>
+  <h4 class="text">To query a user, use the endpoint<b class="endpoint_info">  /user_query?user={username}</b></h4>
+  <h4 class="text">To query an organization, use the endpoint<b class="endpoint_info">  /org_query?org={organization} - Coming soon (hopefully)!</b></h4>
+  <input id = "user"></input><button id = "submit">Try me!</button>
+  <a href="./credits">Credits</a>
+</body>
+
+  <script src="../static/custom.js"></script>
+</html>
